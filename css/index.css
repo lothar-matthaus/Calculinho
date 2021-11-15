@@ -1,0 +1,153 @@
+body { 
+    margin: auto;
+    background-color: #85144b;
+}
+
+body #rootContainer {
+    margin-left: 43%;
+    margin-top: 10%;
+    background-color: #001f3f;
+
+    width: 300px;
+
+    border: solid 1px #000f1f;
+    border-radius: 10px;
+    
+}
+
+#expression {
+    margin: none;
+    background-color: inherit;
+
+    width: inherit;
+    height: 40px;
+
+    line-height: 40px;
+
+    font-size: 20px;
+    font-family: monospace;
+    text-align: right;
+
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+#display span {
+    padding: 5px;
+    vertical-align: middle;
+    line-height: normal;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#expression span {
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: aliceblue;
+}
+
+#display {
+    background-color: inherit;
+
+    height: 70px;
+    width: inherit;
+
+    line-height: 70px;
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+}
+
+#display span {
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#containerButtons {
+    width: inherit;
+    height: 100%;
+}
+
+#tableButtons {
+    border-radius: inherit;
+    width: inherit;
+    table-layout: fixed;
+}
+
+#containerButtons .row{
+    display: inline-flex;
+    width: inherit;
+    height: auto;
+}
+
+#containerButtons .row {
+    background-color: #002447;
+}
+
+#containerButtons .row .operators {
+    color: #d45454;
+    font-size: 28px;
+}
+
+#containerButtons .row .operators:hover{
+    transition: ease-in-out 200ms;
+    color: rgb(255, 214, 102);
+    text-shadow: 1px 1px 10px rgb(64, 27, 121); 
+    font-size: 31px;
+}
+
+.btn {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: inherit;
+    width: 100%;
+    height: 60px;
+    border: none;
+
+}
+
+#btnBack{
+    width: 80%;
+}
+
+
+.btn:hover {
+    transition: ease-in-out 100ms;
+    color: rgb(255, 81, 81);
+    text-shadow: 1px 1px 10px rgb(64, 27, 121); 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#containerButtons .row .numbers {
+    background-color: inherit;
+
+    border: none;
+
+    width: 100%;
+    height: 60px;
+}
+
+#footer {
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color: #001f3f;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aquamarine;
+    position: fixed;
+    bottom: 0;
+}
+
+#footer #messageContent {
+    display: inline;
+    line-height: 50px;
+}

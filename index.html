@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculinho</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div id="rootContainer">
+        <div id="expression">
+            <span id="expressionValue">0</span>
+        </div>
+        <div id="display">
+            <span id="displayValue">0</span>
+        </div>
+
+        <div id="containerButtons">
+            <div class="row">
+                <input class="btn operators" id="btnCE" type="button" value="AC" title="Apagar tudo">
+                <input class="btn operators" id="btnPow" type="button" value="^" title="Potenciação">
+                <input class="btn operators" id="btnSqr" type="button" value="√" title="Radiciação">
+                <input class="btn operators" id="btnDivide" type="button" value="÷" title="Divisão">
+            </div>
+
+            <div class="row">
+                <input class="btn numbers" id="btn7" type="button" value="7">
+                <input class="btn numbers" id="btn8" type="button" value="8">
+                <input class="btn numbers" id="btn9" type="button" value="9">
+                <input class="btn operators" id="btnMultiply" type="button" value="×" title="Multiplicação">
+            </div>
+
+            <div class="row">
+                <input class="btn numbers" id="btn4" type="button" value="4">
+                <input class="btn numbers" id="btn5" type="button" value="5">
+                <input class="btn numbers" id="btn6" type="button" value="6">
+                <input class="btn operators" id="btnMinus" type="button" value="-" title="Subtração">
+            </div>
+
+            <div class="row">
+                <input class="btn numbers" id="btn1" type="button" value="1">
+                <input class="btn numbers" id="btn2" type="button" value="2">
+                <input class="btn numbers" id="btn3" type="button" value="3">
+                <input class="btn operators" id="btnPlus" type="button" value="+" title="Adição">
+            </div>
+
+            <div class="row">
+                <input class="btn numbers" id="btn0" type="button" value="0">
+                <input class="btn operators" id="btnBack" type="button" value="←" title="Deletar">
+                <input class="btn operators" id="btnDot" type="button" value="." title="Casa decimal">
+                <input class="btn operators" id="btnEquals" type="button" value="=" title="Resultado">
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer id="footer">
+        <div id="messageContainer">
+            <span id="messageContent">Lothar Matthaus | Universidade Federal do Ceará - 2021 © Todos os direitos (Se é
+                que tem) reservados. </span>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
